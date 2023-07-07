@@ -1,0 +1,8 @@
+helmGlobals:
+  chartHome: ../chart
+
+helmCharts:
+  - name: dapr-dashboard
+    version: 1.x.x
+    releaseName: test-dapr-dashboard
+    valuesFile: values.yml
